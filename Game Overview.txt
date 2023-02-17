@@ -1,0 +1,44 @@
+Name of the game on the screen
+Load generic background image > shaking egg
+
+New game > "Please select a pet" > Select one of the 3 pets. (User can choose between the 3)
+
+Input box for pet name
+
+
+
+
+Load Background relevant to the chosen pet.
+
+Type name of pet > Press enter.
+
+Egg image turns into the standard image of the pet (Egg image gets hidden and replaced with pet)
+
+(Class gets created for selected pet) >Stats get updated > Status bars get filled to 50%
+
+
+
+
+
+Timeouts start (tick down for stats)
+
+User inputs(Feed, Clean, Interact, Give)
+
+Feed > Speech bubble showing what the user has selected ("Tom likes his treat!")
+
+Hides standard image of the pet and shows the corresponsding image
+
+Image loops 3-4 times after user selects feed
+
+(Runs function which changes the stats depending on food selected) > stats get updated.
+
+Standard image of the pet comes back.
+
+(If-Else function that runs in the timeout part checks numbers on each stat)
+(If-Else that checks indivdual status is below a % > shows text saying status is low/high)
+
+Health status measures overall wellbeing of the pet > If health is over 75% show happy image
+
+Happy image stays as the standard image on the screen whilst over 75% > 30% = sad/angry
+
+If  health reaches 0% pet dies > Headstone appears with pets name. > (penguin in an icecube)
